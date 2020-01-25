@@ -3,7 +3,6 @@
 ## Features:
 
 - Displays basic to-do app functionality
-- Implements a responsive layout
 - Auto block-element generation
 - Appealing UI/UX with minimal touch
 
