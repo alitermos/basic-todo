@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Basic To Do</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="todo-page">
+
+    <h1 id="page-title"> Basic <b>To Do</b> </h1>
+
+      <ul id="todo-list">
+      
+        <li class="todo-item-container">  
+
+          <button class="remove-item" onclick="parentNode.remove()" value="x">x</button>
+
+          <span class="item-content" onclick="setAttribute('id','on-strike-out')">Accomplish this task to start clean ...</span>
+
+        </li>
+
+      </ul>
+
+      <div id="item-gen-container">
+
+        <button id="add-item" value="+">+</button>
+
+        <input id="place-holder" type="text" placeholder="Add tasks here ..." ></input>
+    
+      </div>  
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

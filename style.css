@@ -1,0 +1,65 @@
+@import "item.css";
+@import "generator.css";
+
+html {
+  /* border: solid red 1px; */
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 5rem 70rem 100%;
+  background: whitesmoke;
+}
+#todo-page {
+  padding: 0 0 .5rem 0;
+  background: white;
+  box-shadow: .1rem .1rem 1.5rem rgba(0, 0, 0, .3);
+  border-top: solid rgb(66,133,244) .8rem;
+  border-radius: .1rem .1rem 1rem 1rem;  
+  display: flex;
+  flex-direction: column;
+  min-width: 50rem;
+}
+#page-title {
+  margin: 0 auto 6rem;
+  padding: .8rem 1.2rem .8rem 1.2rem;
+  background: white;
+  box-shadow: .1rem .1rem 1.5rem rgba(0, 0, 0, .3);
+  border-radius: .1rem .1rem .5rem .5rem;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+#page-title:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 45%;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+  }  
+  .remove-item {
+    margin: auto .7rem auto -.1rem;
+    padding: 0 0 .01em 0rem;
+    background: rgb(66,133,244);
+    border: solid rgb(66,133,244) 0rem;
+    border-radius: .1rem 10rem 10rem .1rem;
+  }
+  #page-title {
+    font-size: 4rem;
+  }
+  .item-content {
+    font-size: 3rem;
+  }
+  #place-holder {
+    font-size: 2.5rem;
+  }
+  #on-strike-out {
+    font-size: 2.75rem;
+  }
+}
