@@ -9,4 +9,4 @@
 ## Useful for:
 
 - Beginners that aim to initiate a to-do app project, or any other projects with similar functionality
-- Understanding how HTML, CSS, and Javascript work coherently to produce a simple web app project
+- Understanding how HTML, CSS, and JavaScript work coherently to produce a simple web app project
